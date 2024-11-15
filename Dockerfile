@@ -12,7 +12,7 @@ RUN \
 
 
 # Copy PAServer into container and unzip it
-COPY LinuxPAServer19.0.tar.gz /root/LinuxPAServer19.0.tar.gz
+COPY LinuxPAServer23.0.tar.gz /root/LinuxPAServer23.0.tar.gz
 RUN \
   cd /root && \
   tar xzvf LinuxPAServer23.0.tar.gz && \
